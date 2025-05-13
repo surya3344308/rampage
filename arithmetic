@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    int a = 5;
+    int b = 2;
+    int c,d,g,f;
+   
+    c = a + b;
+   
+    d = a-b;
+   
+    g = a*b;
+   
+    f = a/b;
+   
+    printf("The sum of numbers is: %d\n", c);
+   
+    printf("the sub of numbers is :%d\n",d);
+   
+    printf("the multi of numbers is :%d\n",g);
+   
+    printf("the division of numbers is :%d\n",f);
+   
+    return 0;
+}
+
